@@ -1,9 +1,10 @@
-import Initialized from './components/initializing/Initialized.jsx';
+
+import AuthForm from './pages/log-in/AuthForm.jsx';
 import './tailwind.css';
 function App() {
   return (
-    <div className="App bg-red-500 ">
-     <Initialized/>
+    <div className="">
+     <AuthForm/>
     </div>
   );
 }
