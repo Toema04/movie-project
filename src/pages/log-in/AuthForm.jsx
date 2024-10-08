@@ -35,7 +35,6 @@ const AuthForm = () => {
                                 : "translate-x-0"
                         }`}
                 >
-                    {/* Login Section */}
                     <div className="w-full h-full flex flex-col lg:flex-row">
                         <div className="w-full h-full flex flex-col lg:flex-row -mr-4 pr-4">
                             <div className="w-full lg:w-1/2 h-3/5 lg:h-full bg-white bg-opacity-25 backdrop-filter backdrop-blur-sm p-4 lg:p-8 flex flex-col justify-center items-center rounded-t-2xl lg:rounded-l-2xl lg:rounded-tr-none shadow-lg">
@@ -126,7 +125,6 @@ const AuthForm = () => {
                             isRegistering ? "translate-x-0" : "translate-x-full"
                         }`}
                 >
-                    {/* Register Section */}
                     <div className="w-full h-full flex flex-col lg:flex-row">
                         <div className="w-full h-full flex flex-col lg:flex-row -ml-4 pl-4">
                             <div className="w-full lg:w-1/2 h-2/5 lg:h-full bg-white bg-opacity-15 backdrop-filter backdrop-blur-sm text-white p-4 lg:p-8 flex flex-col justify-center items-center order-2 lg:order-1 rounded-b-2xl lg:rounded-l-2xl lg:rounded-br-none shadow-lg">
